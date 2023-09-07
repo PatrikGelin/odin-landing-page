@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
 }
 
 .container {
@@ -41,5 +43,47 @@
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+}
+
+.himg {
+    max-width: 400px;
+    max-height: 200px;
+    color: #F9FAF8;
+    background-color: grey;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bimg {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: auto;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header .container {
+    display: flex;
 }
 
