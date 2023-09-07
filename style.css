@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar, .header, footer {
+    background-color: #1F2937;
+}
+
+.header .container h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.nav li a, 
+.header .container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.boxes h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.qsection {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
