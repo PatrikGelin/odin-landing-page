@@ -8,7 +8,7 @@
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -50,21 +50,20 @@ footer {
 }
 
 .himg {
-    max-width: 400px;
-    max-height: 200px;
     color: #F9FAF8;
     background-color: grey;
-    flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .bimg {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     border: 4px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 7px;
 }
 
 body {
@@ -79,6 +78,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 100px;
 
 }
 
@@ -89,6 +89,12 @@ body {
 
 .header .container {
     display: flex;
+    padding: 100px;
+    gap: 20px;
+}
+
+.header .container .hcontent {
+    width: 50%;
 }
 
 .boxes {
@@ -101,17 +107,23 @@ body {
     flex-basis: 150px;
 }
 
+.boxes h1 {
+    padding-top: 50px;
+}
+
 .boxes .container {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
     text-align: center;
+    padding: 50px 0px 100px 0px;
 }
 
 .quote .container {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    width: 66%;
 }
 
 .quote {
@@ -120,6 +132,7 @@ body {
 
 .quote .container h3 {
     align-self: flex-end;
+    margin-right: 70px;
 }
 
 .signup .container {
@@ -136,4 +149,19 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 6px 35px;
+    border: 3px solid #F9FAF8;
+    font-size: 18px;
+}
+
+.hcontent button {
+    padding: 8px 35px;
+    border: none;
+    margin-top: 8px;
 }
